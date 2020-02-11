@@ -21,18 +21,18 @@ citecolor=blue, filecolor=blue, urlcolor=blue, pdftitle=}
 %\bibliographystyle{utf8gost705u}
 
 \input{proton_adapt}
-\ESKDcolumnIX{\small{ООО НТЦ <<ТУРБОПНЕВМАТИК>>}}
-\title{ТРЕБОВАНИЯ К ЧИСТОТЕ ИЗДЕЛИЙ}
-\ESKDdocName{Инструкция}
-\ESKDsignature{ГРФМ.0000.000.000И001}
-\ESKDtitleApprovingSheet{ГРФМ.0000.000.000И001ЛУ}
-\ESKDchecker{Пеков}
+%\ESKDcolumnIX{\small{ООО НТЦ <<ТУРБОПНЕВМАТИК>>}}
+%\title{ТРЕБОВАНИЯ К ЧИСТОТЕ ИЗДЕЛИЙ}
+%\ESKDdocName{Инструкция}
+%\ESKDsignature{ГРФМ.0000.000.000И001}
+%\ESKDtitleApprovingSheet{ГРФМ.0000.000.000И001ЛУ}
+%\ESKDchecker{Пеков}
 \makeindex
 
 \usepackage{Sweave}
 \begin{document}
 \input{main-concordance}
-\maketitle
+%\maketitle
 
 %\ESKDapprovingDoc{fff}
 
@@ -104,9 +104,12 @@ Re = \frac{(0,5\dots2)\cdot{0,05}}{1.006\cdot10^{-6}}=24850,89\dots99403,58
 Re = \frac{(0,5\dots2)\cdot{(0,0005\dots0.001)}}{1.006\cdot10^{-6}}=248,509\dots1988,07
 \end{equation}
 
-Исходя из числа Рейнолдса видно, что движение жидкости при обтекании троса подвеса переходное, от ламинарного к турбулентному.
+Исходя из числа Рейнолдса видно, что движение жидкости при обтекании троса подвеса переходное, от ламинарного к турбулентному. Для определения коэффициента сопротивления движению воспользуемся зависимостью~\ref{ris:grsphCd}.
 
-
+\begin{figure}[h]
+\center{\includegraphics[width=1\linewidth]{pic/cimg403.png}}
+\caption{Зависимость}\label{ris:grsphCd}
+\end{figure}
 
 \bibliographystyle{unsrt}
 \bibliography{my_all}

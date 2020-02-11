@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.1.29)  2 FEB 2020 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.1.29)  11 FEB 2020 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2038,7 +2038,7 @@ LaTeX Font Info:    No file T2Aaer.fd. on input line 22.
 LaTeX Font Warning: Font shape `T2A/aer/m/n' undefined
 (Font)              using `T2A/cmr/m/n' instead on input line 22.
 
-LaTeX Font Info:    Try loading font information for OT1+aer on input line 50.
+LaTeX Font Info:    Try loading font information for OT1+aer on input line 52.
 (/usr/share/texlive/texmf-dist/tex/latex/ae/ot1aer.fd
 File: ot1aer.fd 1997/11/16 Font definitions for OT1/aer.
 )<<ot1.cmap>><<t2a.cmap>>)
@@ -2216,25 +2216,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <<ot1tt.cmap>>
 (./main-concordance.tex)
 
-LaTeX Font Warning: Font shape `T2A/aer/bx/sl' undefined
-(Font)              using `T2A/aer/m/n' instead on input line 36.
-
-
-LaTeX Font Warning: Font shape `T2A/aer/bx/sl' in size <16> not available
-(Font)              size <17.28> substituted on input line 36.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 36.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 36.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 36.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 36.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-
 LaTeX Font Warning: Font shape `T2A/aer/bx/n' undefined
 (Font)              using `T2A/aer/m/n' instead on input line 40.
 
@@ -2250,8 +2231,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 42.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 42.
- [2
-
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 Package babel Info: Redefining russian shorthand "|
@@ -2282,7 +2262,8 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 53.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 53.
- <pic/fullViewEdited.png, id=83, 599.23875pt x 438.63875pt>
+
+<pic/fullViewEdited.png, id=77, 599.23875pt x 438.63875pt>
 File: pic/fullViewEdited.png Graphic file (type png)
 
 <use pic/fullViewEdited.png>
@@ -2304,7 +2285,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 71.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 71.
-[3]
+[2]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 77.
 Package babel Info: Redefining russian shorthand "~
@@ -2317,12 +2298,21 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 82.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 82.
- [4 <./pic/fullViewEdited.png (PNG copy)>]
+ [3 <./pic/fullViewEdited.png (PNG copy)>]
 Overfull \hbox (7.12068pt too wide) in paragraph at lines 101--102
 []\T2A/aer/bx/n/14.4 Характерный раз-мер под-вес-но-го тро-са --- диа-метр, рав
 -ный $\OT1/aer/m/n/14.4 0\OML/cmm/m/it/14.4 :\OT1/aer/m/n/14.4 0005 [] 0\OML/cm
 m/m/it/14.4 :\OT1/aer/m/n/14.4 001$ \T2A/aer/bx/n/14.4 м.
  []
+
+<pic/cimg403.png, id=99, 507.8975pt x 222.8325pt>
+File: pic/cimg403.png Graphic file (type png)
+ <use pic/cimg403.png>
+Package pdftex.def Info: pic/cimg403.png used on input line 110.
+(pdftex.def)             Requested size: 509.30438pt x 223.45758pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./main.bbl
 Package babel Info: Redefining russian shorthand "|
@@ -2345,7 +2335,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 23.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 23.
-[5]
+[4]
 Underfull \hbox (badness 2189) in paragraph at lines 25--29
 []\T2A/aett/m/n/14.4 Вязкость во-ды [Текст]. ^^V [Б. м. : б. и.]. ^^V URL: [][]
 $http : / / thermalinfo . ru /
@@ -2354,25 +2344,25 @@ $http : / / thermalinfo . ru /
 ) 
 AED: lastpage setting LastPage
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 116.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 116.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 116.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 113.
-[6]
+(babel)             in language  on input line 116.
+[5 <./pic/cimg403.png>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 113.
+(babel)             in language  on input line 116.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 113.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+(babel)             in language  on input line 116.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AF0966535EDE5F2C8624ACC7EB97B06D;1874.
+(rerunfilecheck)             Checksum: 84CB91A615CEA624C60E75C6AB1011AD;1874.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2381,17 +2371,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 44496 strings out of 493029
- 979814 string characters out of 6136234
+ 44491 strings out of 493029
+ 979740 string characters out of 6136234
  1089765 words of memory out of 5000000
- 47228 multiletter control sequences out of 15000+600000
- 16567 words of font info for 41 fonts, out of 8000000 for 9000
+ 47226 multiletter control sequences out of 15000+600000
+ 15765 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,10n,79p,10430b,865s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.3} has been referenced but does not exis
+pdfTeX warning (dest): name{section*.4} has been referenced but does not exis
 t, replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive
@@ -2399,14 +2389,13 @@ t, replaced by a fixed one
 -dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm2074.pfb>
-Output written on main.pdf (6 pages, 170708 bytes).
+/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfrm2074.pfb>
+Output written on main.pdf (5 pages, 155045 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
+ 160 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
  31 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
