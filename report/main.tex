@@ -1,0 +1,113 @@
+%\documentclass[a4paper,10pt]{article}
+
+%\documentclass[russian,utf8,emptystyle, pointsection, 14pt]{eskdtext}
+\documentclass[russian,utf8, pointsubsection]{eskdtext}
+%\usepackage{eskdplain}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\usepackage[T2A]{fontenc}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue,
+citecolor=blue, filecolor=blue, urlcolor=blue, pdftitle=}
+
+\usepackage{graphics}
+\usepackage{longtable}
+%\usepackage{lscape}
+\usepackage[pdftex]{lscape}
+
+%\usepackage{pdflscape}
+
+%\bibliographystyle{utf8gost705u}
+
+\input{proton_adapt}
+\ESKDcolumnIX{\small{ООО НТЦ <<ТУРБОПНЕВМАТИК>>}}
+\title{ТРЕБОВАНИЯ К ЧИСТОТЕ ИЗДЕЛИЙ}
+\ESKDdocName{Инструкция}
+\ESKDsignature{ГРФМ.0000.000.000И001}
+\ESKDtitleApprovingSheet{ГРФМ.0000.000.000И001ЛУ}
+\ESKDchecker{Пеков}
+\makeindex
+
+\usepackage{Sweave}
+\begin{document}
+\input{main-concordance}
+\maketitle
+
+%\ESKDapprovingDoc{fff}
+
+%\maketitle
+\tableofcontents
+
+\newpage
+\section{Введение}
+\section{Цели}
+\pointsection Выбор и определение параметров расчетной модели
+\pointsection \label{sec:limits} Определение сопротивления движению груза даунриггера при подводном движении на скоростях от 0.5 до 2~м/с с заглублением от 0.5 до 50 метров с нормальной температурой среды, с учетом удерживающего троса диаметром 1~мм.;
+\pointsection Определение устойчивости движения груза дауриггера во всем диаппазоне приведенном в п. \ref{sec:limits}.
+
+\section{Выводы}
+\section{Рекомендации}
+\section{Заключение}
+\section{Содержание отчета}
+\subsection{Исходные данные и описание работы}
+
+Груз даунриггера применяется для заглубления и стабидизации глубины движения приманки при рыбной ловле на глубинах от 2 до 20 метров при скоростях движения судна  от 0.5 до 2~м/с. Общий вид груза даунрингера приведен на рисунке~\ref{ris:allView}.
+
+Поскольку ловля с помощью даунриггера производится в летнее время, а характеристики воды в открытых водоемах изменяются незначительно, то расчеты выполним при температуре воды 15\cels. 
+
+\begin{figure}[h]
+\center{\includegraphics[width=1\linewidth]{pic/fullViewEdited.png}}
+\caption{Общий вид модели груза даунриггера}
+\label{ris:allView}
+\end{figure}
+
+
+
+\subsection{Выбор и валидация расчетной модели}
+
+Поскольку точные данные по лобовому сопротивлению груза даунриггера отсутсвуют, то для разработки расчетной сетки используем доступные экспериментальные данные по лобовому сопротивлению:
+\begin{itemize}
+\item обтекании цилиндра при направлении вектора набегающего потока направленном под прямым углом к оси цилиндра~\cite{cylInFlow};
+\end{itemize}
+
+При движении груза необходимо учитывать удельное (по глубине погружения) сопротивлеие троса подвеса груза. В этом случае модель сопротивления, изложенная в \cite{cylInFlow}, может также использоваться для валидации применяемой модели и коэффициентов. 
+
+
+\subsection{Определение основных характеристик}
+
+\subsubsection{Определение основных характеристик среды и режима движения жидкости}
+Для воды в нормальных условиях характеристики жидкости:
+\begin{enumerate}
+\item плотность, кг/м$^2$: 1000
+\item динамическая вязкость, $\text{Па}\cdot\text{с}$: $1006\cdot10^{-6}$; \cite{waterProps}
+\item кинематическая вязкость, $\text{м}^2/\text{с}$: $1.006\cdot10^{-6}$ \cite{waterProps}
+\end{enumerate}
+
+\subsubsection{Определение основных характеристик движения жидкости}
+В качестве характерного размера даунриггера примем максимальльный диаметр <<тела>>, равный 0.05~м. Для этого характерного размера число Рейнолдса равно:
+
+\begin{equation}
+Re = \frac{u\cdot{L}}{\nu} 
+\end{equation}
+
+По расчету:
+\begin{equation}
+Re = \frac{(0,5\dots2)\cdot{0,05}}{1.006\cdot10^{-6}}=24850,89\dots99403,58
+\end{equation}
+
+Исходя из числа Рейнолдса видно, что движение жидкости при обтекании груза даунриггера турбулентное.
+
+Характерный размер подвесного троса --- диаметр, равный $0.0005\dots0.001$~м. Для этого характерного размера число Рейнолдса равно:
+
+\begin{equation}
+Re = \frac{(0,5\dots2)\cdot{(0,0005\dots0.001)}}{1.006\cdot10^{-6}}=248,509\dots1988,07
+\end{equation}
+
+Исходя из числа Рейнолдса видно, что движение жидкости при обтекании троса подвеса переходное, от ламинарного к турбулентному.
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{my_all}
+\end{document}

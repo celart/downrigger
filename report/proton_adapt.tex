@@ -1,0 +1,127 @@
+\usepackage{eskdchngsheet}
+%\usepackage{python}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{cite}
+% \usepackage{tocloft}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{pdfpages}
+\usepackage{booktabs} % For \toprule, \midrule and \bottomrule
+\usepackage{siunitx} % Formats the units and values
+\usepackage{pgfplotstable} % Generates table from .csv
+\usepackage{cmap}
+\usepackage{color} \definecolor{darkgreen}{rgb}{0,.5,0}
+%\usepackage[unicode,colorlinks,filecolor=blue,citecolor=darkgreen]{hyperref}
+\usepackage{lscape}
+\usepackage{eskdfreesize}
+%\usepackage[T2A]{fontenc}
+%\usepackage{pscyr}
+\sisetup{
+  round-mode          = places, % Rounds numbers
+  round-precision     = 2, % to 2 places
+}
+
+\renewcommand{\ESKDagreedName}{%
+  \cyr\CYRS\CYRO\CYRG\CYRL\CYRA\CYRS\CYRO\CYRV\CYRA\CYRN\CYRO} % "СОГЛАСОВАНО" заглавными
+\renewcommand{\ESKDapprovingName}{%
+  \cyr\CYRU\CYRT\CYRV\CYRE\CYRR\CYRZH\CYRD\CYRA\CYRYU} % "УТВЕРЖДАЮ" заглавными
+\renewcommand{\ESKDapprovedName}{%
+   \cyr\CYRU\CYRT\CYRV\CYRE\CYRR\CYRZH\CYRD\CYRE\CYRN} % "УТВЕРЖДЕН" заглавными
+\renewcommand{\ESKDapprovingSheetName}{%
+  \cyr\CYRL\cyri\cyrs\cyrt\ %
+  \cyru\cyrt\cyrv\cyre\cyrr\cyrzh\cyrd\cyre\cyrn\cyri\cyrya}
+
+%\ESKDcompany{ПАО <<ПРОТОН-ПМ>>}
+%\ESKDgroup{ПАО <<ПРОТОН-ПМ>>}
+\ESKDcompany{ООО НТЦ <<ТУРБОПНЕВМАТИК>>}
+\ESKDgroup{ООО НТЦ <<ТУРБОПНЕВМАТИК>>}
+%\ESKDtitleApprovedBy{Главный инженер}{Т. Н. Компанец}
+\ESKDtitleApprovedBy{Технический директор}{А. А. Снитко}
+
+\ESKDauthor{Целищев}
+\ESKDchecker{}
+\ESKDnormContr{}
+\ESKDapprovedBy{}
+
+%\ESKDtitleAgreedBy{Начальник 209 ВП МО РФ}{А. И. Бодак}
+%\ESKDtitleDesignedBy {Главный технолог}{А. А. Целищев}
+\ESKDtitleDesignedBy {Начальник теплотехнического отдела}{А. А. Целищев}
+%\ESKDtitleAgreedBy {Нач. отдела надежности}{Д. А. Новиков}
+%\ESKDtitleDesignedBy {Ведущий специалист-конструктор-расчетчик}{А. А. Целищев}
+%\ESKDtitleDesignedBy {Специалист-конструктор-расчетчик}{В. В. Пшеничный}
+
+\renewcommand{\ESKDtheTitleFieldX}{} % Убрана дата с титульного листа
+
+\renewcommand{\ESKDsectionStyle}{\normalfont\Large\bfseries\MakeUppercase}
+\renewcommand{\ESKDsubsectionStyle}{\normalfont\large\bfseries}
+\renewcommand{\ESKDsubsubsectionStyle}{\normalfont\normalsize\bfseries}
+
+%\ESKDsectStyle{\section}{\textsc}
+%
+\newcommand{\No}{\textnumero}
+\newcommand{\no}{\textnumero}
+\newcommand{\cels}{~$^0C$}
+\newcommand{\obmin}{~об/мин}
+\newcommand{\mpa}{~МПа}
+\newcommand{\kgscm}{~кгс/см$^2$}
+\newcommand{\kgsm}{~кгс$\cdot$м}
+\newcommand{\kgsmm}{~кгс/мм$^2$}
+\newcommand{\kJ}{~кДж}
+\newcommand{\J}{~Дж}
+\newcommand{\pa}{~Па}
+\newcommand{\mm}{~мм}
+\newcommand{\kpa}{~кПа}
+\newcommand{\ms}{~м/с}
+\newcommand{\watt}{~Вт}
+\newcommand{\kwatt}{~кВт}
+\newcommand{\megawatt}{~MВт}
+\newcommand{\qm}{~м$^2$}
+\newcommand{\qmm}{~мм$^2$}
+\newcommand{\grad}{~$^0C$}
+\newcommand{\minut}{~'}
+\newcommand{\secund}{~'}
+
+\bibliographystyle{gost2003s}
+\setcounter{tocdepth}{2}
+%
+%\renewcommand{\l@subsection}{\@tocline{2}{0.8cm}{0.8cm}}
+\usepackage{soul}
+\makeatletter \renewcommand{\@dotsep}{10000} \makeatother % Исключены точки в оглавлении
+% \renewcommand{\l@section}{\@dottedtocline{1}{1.5em}{2.3em}}
+% \renewcommand{\l@subsection}{\@dottedtocline{2}{1.5em}{2.3em}}
+% \renewcommand{\l@subsubsection}{\@dottedtocline{2}{1.5em}{2.3em}}
+
+%\renewcommand{\part}[1]{#1 \refstepcounter{}
+
+%\renewcommand{\thesection}{\thepart.\arabic{section}}
+
+\newcommand{\thepointsection}{\thesection.\arabic{subsection}}
+\newcommand{\pointsection}{%
+  \par\refstepcounter{subsection}\thepointsection\quad}
+
+\newcommand{\thepointsubsection}{\thesubsection.\arabic{subsubsection}}
+\newcommand{\pointsubsection}{%
+  \par\refstepcounter{subsubsection}\thepointsubsection\quad}
+
+\newcounter{subsubsubsection}[subsubsection]
+
+\newcommand{\thepointsubsubsection}{\thesubsubsection.\arabic{subsubsubsection}}
+\newcommand{\pointsubsubsection}{%
+  \par\refstepcounter{subsubsubsection}\thepointsubsubsection\quad}
+
+%создание и автоматическая нумерация списков
+\RequirePackage{enumitem}
+\renewcommand{\alph}[1]{\asbuk{#1}} % костыль для кирилической нумерации вместо латинской
+
+\setlist{nolistsep} % убираем дополнительные вертикальные отступы вокруг списков
+\setenumerate[1]{label=\alph*), fullwidth, itemindent=\parindent,  listparindent=\parindent} 
+\setenumerate[2]{label=\arabic*), fullwidth, itemindent=\parindent, listparindent=\parindent, leftmargin=\parindent}
+
+\setitemize{fullwidth, itemindent=\parindent, listparindent=\parindent}
+
+% Настраиваем шрифт разделов в оглавлении
+\makeatletter
+\renewcommand{\l@section}{\bfseries \@dottedtocline{1}{0em}{1.5em}}
+\renewcommand{\l@subsection}{\normalfont \@dottedtocline{2}{0em}{2.5em}}
+\makeatother

@@ -1,0 +1,9 @@
+{
+    "path" : "~/testOF/downrigger/report",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
